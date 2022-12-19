@@ -23,6 +23,12 @@ Part of it is the vignette [reproduce_paper](https://cran.r-project.org/web/pack
 ### Choice data
 The choice data is available as part of the aforementioned [out-of-treatment testing package](https://CRAN.R-project.org/package=oottest), the data description can be found in R or the [reference manual](https://cran.r-project.org/web/packages/oottest/oottest.pdf).
 
+
+#### Subject-level choice data
+In the folder 'subject-level-choice-data', you can find the choice data for all games.
+A subject is identified by a subject number within a file, i.e., subject 2 in two_action_games.csv is not the same subject as subject 2 in three_action_games.csv.
+
+
 ### Choice data, risk-aversion, level-k reasoning and more subject level data
 We have not used the risk-aversion, level-k reasoning and other subject level data (as gender, age, ...) in the paper.
 I have chosen to not make it public, as it includes detailed data about individual subjects. Furthermore, the data is not prepared/commented sufficiently to be useful without an explanation.
