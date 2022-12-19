@@ -28,6 +28,8 @@ The choice data is available as part of the aforementioned [out-of-treatment tes
 In the folder 'subject-level-choice-data', you can find the choice data for all games.
 A subject is identified by a subject number within a file, i.e., subject 2 in two_action_games.csv is not the same subject as subject 2 in three_action_games.csv.
 
+Choices: In the two-action games, 1 refers to Up and 0 to Down.
+In the three-action games, 1 is Up, 2 Mid, and 3 is Down.
 
 ### Choice data, risk-aversion, level-k reasoning and more subject level data
 We have not used the risk-aversion, level-k reasoning and other subject level data (as gender, age, ...) in the paper.
